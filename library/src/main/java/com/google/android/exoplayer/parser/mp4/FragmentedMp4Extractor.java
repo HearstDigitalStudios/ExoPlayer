@@ -15,6 +15,11 @@
  */
 package com.google.android.exoplayer.parser.mp4;
 
+import android.annotation.SuppressLint;
+import android.media.MediaCodec;
+import android.media.MediaExtractor;
+import android.util.Pair;
+
 import com.google.android.exoplayer.MediaFormat;
 import com.google.android.exoplayer.ParserException;
 import com.google.android.exoplayer.SampleHolder;
@@ -26,11 +31,6 @@ import com.google.android.exoplayer.upstream.NonBlockingInputStream;
 import com.google.android.exoplayer.util.Assertions;
 import com.google.android.exoplayer.util.CodecSpecificDataUtil;
 import com.google.android.exoplayer.util.MimeTypes;
-
-import android.annotation.SuppressLint;
-import android.media.MediaCodec;
-import android.media.MediaExtractor;
-import android.util.Pair;
 
 import java.nio.ByteBuffer;
 import java.util.ArrayList;

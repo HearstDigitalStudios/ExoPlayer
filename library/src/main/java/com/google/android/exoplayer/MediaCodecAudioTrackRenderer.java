@@ -15,11 +15,6 @@
  */
 package com.google.android.exoplayer;
 
-import com.google.android.exoplayer.drm.DrmSessionManager;
-import com.google.android.exoplayer.util.Assertions;
-import com.google.android.exoplayer.util.MimeTypes;
-import com.google.android.exoplayer.util.Util;
-
 import android.annotation.TargetApi;
 import android.media.AudioFormat;
 import android.media.AudioManager;
@@ -31,6 +26,11 @@ import android.media.audiofx.Virtualizer;
 import android.os.ConditionVariable;
 import android.os.Handler;
 import android.util.Log;
+
+import com.google.android.exoplayer.drm.DrmSessionManager;
+import com.google.android.exoplayer.util.Assertions;
+import com.google.android.exoplayer.util.MimeTypes;
+import com.google.android.exoplayer.util.Util;
 
 import java.lang.reflect.Method;
 import java.nio.ByteBuffer;

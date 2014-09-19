@@ -15,9 +15,9 @@
  */
 package com.google.android.exoplayer.dash.mpd;
 
-import com.google.android.exoplayer.util.Assertions;
-
 import android.net.Uri;
+
+import com.google.android.exoplayer.util.Assertions;
 
 /**
  * Defines a range of data located at a {@link Uri}.

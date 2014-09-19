@@ -15,11 +15,11 @@
  */
 package com.google.android.exoplayer.text.ttml;
 
+import android.util.Log;
+
 import com.google.android.exoplayer.text.Subtitle;
 import com.google.android.exoplayer.text.SubtitleParser;
 import com.google.android.exoplayer.util.MimeTypes;
-
-import android.util.Log;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

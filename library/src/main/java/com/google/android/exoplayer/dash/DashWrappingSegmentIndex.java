@@ -15,11 +15,11 @@
  */
 package com.google.android.exoplayer.dash;
 
+import android.net.Uri;
+
 import com.google.android.exoplayer.dash.mpd.RangedUri;
 import com.google.android.exoplayer.parser.SegmentIndex;
 import com.google.android.exoplayer.util.Util;
-
-import android.net.Uri;
 
 /**
  * An implementation of {@link DashSegmentIndex} that wraps a {@link SegmentIndex} parsed from a

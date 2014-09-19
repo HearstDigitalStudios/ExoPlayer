@@ -15,6 +15,8 @@
  */
 package com.google.android.exoplayer.upstream.cache;
 
+import android.net.Uri;
+
 import com.google.android.exoplayer.C;
 import com.google.android.exoplayer.upstream.DataSink;
 import com.google.android.exoplayer.upstream.DataSource;
@@ -23,8 +25,6 @@ import com.google.android.exoplayer.upstream.FileDataSource;
 import com.google.android.exoplayer.upstream.TeeDataSource;
 import com.google.android.exoplayer.upstream.cache.CacheDataSink.CacheDataSinkException;
 import com.google.android.exoplayer.util.Assertions;
-
-import android.net.Uri;
 
 import java.io.IOException;
 

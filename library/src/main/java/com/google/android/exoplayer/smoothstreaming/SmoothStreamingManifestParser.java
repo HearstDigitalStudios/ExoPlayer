@@ -15,15 +15,15 @@
  */
 package com.google.android.exoplayer.smoothstreaming;
 
+import android.util.Base64;
+import android.util.Pair;
+
 import com.google.android.exoplayer.ParserException;
 import com.google.android.exoplayer.smoothstreaming.SmoothStreamingManifest.ProtectionElement;
 import com.google.android.exoplayer.smoothstreaming.SmoothStreamingManifest.StreamElement;
 import com.google.android.exoplayer.smoothstreaming.SmoothStreamingManifest.TrackElement;
 import com.google.android.exoplayer.util.Assertions;
 import com.google.android.exoplayer.util.CodecSpecificDataUtil;
-
-import android.util.Base64;
-import android.util.Pair;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

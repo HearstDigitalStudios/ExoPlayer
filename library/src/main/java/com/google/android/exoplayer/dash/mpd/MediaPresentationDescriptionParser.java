@@ -15,6 +15,9 @@
  */
 package com.google.android.exoplayer.dash.mpd;
 
+import android.net.Uri;
+import android.text.TextUtils;
+
 import com.google.android.exoplayer.ParserException;
 import com.google.android.exoplayer.chunk.Format;
 import com.google.android.exoplayer.dash.mpd.SegmentBase.SegmentList;
@@ -23,9 +26,6 @@ import com.google.android.exoplayer.dash.mpd.SegmentBase.SegmentTimelineElement;
 import com.google.android.exoplayer.dash.mpd.SegmentBase.SingleSegmentBase;
 import com.google.android.exoplayer.util.Assertions;
 import com.google.android.exoplayer.util.MimeTypes;
-
-import android.net.Uri;
-import android.text.TextUtils;
 
 import org.xml.sax.helpers.DefaultHandler;
 import org.xmlpull.v1.XmlPullParser;

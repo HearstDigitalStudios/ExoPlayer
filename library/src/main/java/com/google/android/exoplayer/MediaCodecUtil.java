@@ -15,15 +15,15 @@
  */
 package com.google.android.exoplayer;
 
-import com.google.android.exoplayer.util.MimeTypes;
-import com.google.android.exoplayer.util.Util;
-
 import android.annotation.TargetApi;
 import android.media.MediaCodecInfo;
 import android.media.MediaCodecInfo.CodecCapabilities;
 import android.media.MediaCodecInfo.CodecProfileLevel;
 import android.media.MediaCodecList;
 import android.util.Pair;
+
+import com.google.android.exoplayer.util.MimeTypes;
+import com.google.android.exoplayer.util.Util;
 
 import java.util.HashMap;
 

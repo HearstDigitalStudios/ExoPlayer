@@ -15,10 +15,10 @@
  */
 package com.google.android.exoplayer.dash.mpd;
 
+import android.net.Uri;
+
 import com.google.android.exoplayer.ParserException;
 import com.google.android.exoplayer.util.ManifestFetcher;
-
-import android.net.Uri;
 
 import java.io.IOException;
 import java.io.InputStream;

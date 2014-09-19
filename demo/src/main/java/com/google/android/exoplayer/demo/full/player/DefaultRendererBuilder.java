@@ -15,17 +15,17 @@
  */
 package com.google.android.exoplayer.demo.full.player;
 
+import android.content.Context;
+import android.media.MediaCodec;
+import android.net.Uri;
+import android.widget.TextView;
+
 import com.google.android.exoplayer.FrameworkSampleSource;
 import com.google.android.exoplayer.MediaCodecAudioTrackRenderer;
 import com.google.android.exoplayer.MediaCodecVideoTrackRenderer;
 import com.google.android.exoplayer.TrackRenderer;
 import com.google.android.exoplayer.demo.full.player.DemoPlayer.RendererBuilder;
 import com.google.android.exoplayer.demo.full.player.DemoPlayer.RendererBuilderCallback;
-
-import android.content.Context;
-import android.media.MediaCodec;
-import android.net.Uri;
-import android.widget.TextView;
 
 /**
  * A {@link RendererBuilder} for streams that can be read using

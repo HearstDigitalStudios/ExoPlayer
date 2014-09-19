@@ -15,10 +15,10 @@
  */
 package com.google.android.exoplayer.util;
 
-import com.google.android.exoplayer.ParserException;
-
 import android.net.Uri;
 import android.os.AsyncTask;
+
+import com.google.android.exoplayer.ParserException;
 
 import java.io.IOException;
 import java.io.InputStream;

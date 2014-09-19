@@ -15,16 +15,16 @@
  */
 package com.google.android.exoplayer;
 
-import com.google.android.exoplayer.drm.DrmSessionManager;
-import com.google.android.exoplayer.util.MimeTypes;
-import com.google.android.exoplayer.util.TraceUtil;
-
 import android.annotation.TargetApi;
 import android.media.MediaCodec;
 import android.media.MediaCrypto;
 import android.os.Handler;
 import android.os.SystemClock;
 import android.view.Surface;
+
+import com.google.android.exoplayer.drm.DrmSessionManager;
+import com.google.android.exoplayer.util.MimeTypes;
+import com.google.android.exoplayer.util.TraceUtil;
 
 import java.nio.ByteBuffer;
 

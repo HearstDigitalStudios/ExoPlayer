@@ -15,6 +15,11 @@
  */
 package com.google.android.exoplayer.demo.full.player;
 
+import android.media.MediaCodec.CryptoException;
+import android.os.Handler;
+import android.os.Looper;
+import android.view.Surface;
+
 import com.google.android.exoplayer.DummyTrackRenderer;
 import com.google.android.exoplayer.ExoPlaybackException;
 import com.google.android.exoplayer.ExoPlayer;
@@ -29,11 +34,6 @@ import com.google.android.exoplayer.drm.StreamingDrmSessionManager;
 import com.google.android.exoplayer.text.TextTrackRenderer;
 import com.google.android.exoplayer.upstream.DefaultBandwidthMeter;
 import com.google.android.exoplayer.util.PlayerControl;
-
-import android.media.MediaCodec.CryptoException;
-import android.os.Handler;
-import android.os.Looper;
-import android.view.Surface;
 
 import java.io.IOException;
 import java.util.concurrent.CopyOnWriteArrayList;

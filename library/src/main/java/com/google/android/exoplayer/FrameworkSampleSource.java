@@ -15,13 +15,13 @@
  */
 package com.google.android.exoplayer;
 
-import com.google.android.exoplayer.util.Assertions;
-import com.google.android.exoplayer.util.Util;
-
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.media.MediaExtractor;
 import android.net.Uri;
+
+import com.google.android.exoplayer.util.Assertions;
+import com.google.android.exoplayer.util.Util;
 
 import java.io.IOException;
 import java.util.Map;

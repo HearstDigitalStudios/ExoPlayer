@@ -15,14 +15,14 @@
  */
 package com.google.android.exoplayer.demo.simple;
 
+import android.media.MediaCodec;
+import android.net.Uri;
+
 import com.google.android.exoplayer.FrameworkSampleSource;
 import com.google.android.exoplayer.MediaCodecAudioTrackRenderer;
 import com.google.android.exoplayer.MediaCodecVideoTrackRenderer;
 import com.google.android.exoplayer.demo.simple.SimplePlayerActivity.RendererBuilder;
 import com.google.android.exoplayer.demo.simple.SimplePlayerActivity.RendererBuilderCallback;
-
-import android.media.MediaCodec;
-import android.net.Uri;
 
 /**
  * A {@link RendererBuilder} for streams that can be read using

@@ -15,6 +15,9 @@
  */
 package com.google.android.exoplayer.parser.webm;
 
+import android.annotation.TargetApi;
+import android.media.MediaExtractor;
+
 import com.google.android.exoplayer.MediaFormat;
 import com.google.android.exoplayer.SampleHolder;
 import com.google.android.exoplayer.parser.Extractor;
@@ -22,9 +25,6 @@ import com.google.android.exoplayer.parser.SegmentIndex;
 import com.google.android.exoplayer.upstream.NonBlockingInputStream;
 import com.google.android.exoplayer.util.LongArray;
 import com.google.android.exoplayer.util.MimeTypes;
-
-import android.annotation.TargetApi;
-import android.media.MediaExtractor;
 
 import java.nio.ByteBuffer;
 import java.util.Arrays;

@@ -15,6 +15,12 @@
  */
 package com.google.android.exoplayer.demo.full.player;
 
+import android.annotation.TargetApi;
+import android.media.MediaCodec;
+import android.media.UnsupportedSchemeException;
+import android.os.Handler;
+import android.widget.TextView;
+
 import com.google.android.exoplayer.DefaultLoadControl;
 import com.google.android.exoplayer.LoadControl;
 import com.google.android.exoplayer.MediaCodecAudioTrackRenderer;
@@ -44,12 +50,6 @@ import com.google.android.exoplayer.upstream.DefaultBandwidthMeter;
 import com.google.android.exoplayer.upstream.HttpDataSource;
 import com.google.android.exoplayer.util.ManifestFetcher.ManifestCallback;
 import com.google.android.exoplayer.util.Util;
-
-import android.annotation.TargetApi;
-import android.media.MediaCodec;
-import android.media.UnsupportedSchemeException;
-import android.os.Handler;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.UUID;

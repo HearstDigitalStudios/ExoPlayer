@@ -15,9 +15,9 @@
  */
 package com.google.android.exoplayer.util;
 
-import com.google.android.exoplayer.upstream.DataSource;
-
 import android.net.Uri;
+
+import com.google.android.exoplayer.upstream.DataSource;
 
 import java.io.IOException;
 import java.net.URL;

@@ -15,10 +15,6 @@
  */
 package com.google.android.exoplayer;
 
-import com.google.android.exoplayer.drm.DrmSessionManager;
-import com.google.android.exoplayer.util.Assertions;
-import com.google.android.exoplayer.util.Util;
-
 import android.annotation.TargetApi;
 import android.media.MediaCodec;
 import android.media.MediaCodec.CryptoException;
@@ -26,6 +22,10 @@ import android.media.MediaCrypto;
 import android.media.MediaExtractor;
 import android.os.Handler;
 import android.os.SystemClock;
+
+import com.google.android.exoplayer.drm.DrmSessionManager;
+import com.google.android.exoplayer.util.Assertions;
+import com.google.android.exoplayer.util.Util;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;

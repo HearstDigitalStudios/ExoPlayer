@@ -15,6 +15,10 @@
  */
 package com.google.android.exoplayer.smoothstreaming;
 
+import android.net.Uri;
+import android.util.Base64;
+import android.util.SparseArray;
+
 import com.google.android.exoplayer.MediaFormat;
 import com.google.android.exoplayer.TrackInfo;
 import com.google.android.exoplayer.chunk.Chunk;
@@ -36,10 +40,6 @@ import com.google.android.exoplayer.smoothstreaming.SmoothStreamingManifest.Trac
 import com.google.android.exoplayer.upstream.DataSource;
 import com.google.android.exoplayer.upstream.DataSpec;
 import com.google.android.exoplayer.util.CodecSpecificDataUtil;
-
-import android.net.Uri;
-import android.util.Base64;
-import android.util.SparseArray;
 
 import java.io.IOException;
 import java.util.Arrays;

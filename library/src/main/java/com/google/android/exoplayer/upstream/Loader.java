@@ -15,13 +15,13 @@
  */
 package com.google.android.exoplayer.upstream;
 
-import com.google.android.exoplayer.util.Assertions;
-import com.google.android.exoplayer.util.Util;
-
 import android.annotation.SuppressLint;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
+
+import com.google.android.exoplayer.util.Assertions;
+import com.google.android.exoplayer.util.Util;
 
 import java.io.IOException;
 import java.util.concurrent.ExecutorService;
